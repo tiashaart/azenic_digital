@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AZENIC DIGITAL – Transforming Ideas Into Digital Excellence</title>
+<meta name="description" content="Azenic Digital is a Kandy, Sri Lanka based digital agency offering data analytics, UI/UX design, graphic design and web development for local and international clients.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4f7fc;--surf:#fff;--tx:#0b1630;--mut:#52617f;--bd:#dbe3f1;--blue:#2f7bff;--cy:#22d3ee;--navy:#07112b;--hd:"Space Grotesk","Segoe UI",system-ui,sans-serif;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#07112b;--surf:#0d1b3d;--tx:#eaf0ff;--mut:#9db0d6;--bd:#1e3160}}
+:root[data-theme="dark"]{--bg:#07112b;--surf:#0d1b3d;--tx:#eaf0ff;--mut:#9db0d6;--bd:#1e3160}
+html{scroll-behavior:smooth;scroll-padding-top:calc(76px + env(safe-area-inset-top,0px))}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.65 Inter,system-ui,sans-serif}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--navy);z-index:30}
+h1,h2,h3{font-family:var(--hd);line-height:1.15;margin:0 0 .5em;letter-spacing:-.02em}
+h1{font-size:clamp(2.2rem,5.5vw,3.9rem)}h2{font-size:clamp(1.7rem,3.5vw,2.5rem)}h3{font-size:1.2rem}
+p{margin:0 0 1em;color:var(--mut)}a{color:inherit}
+.w{max-width:1160px;margin:auto;padding:0 22px}.sec{padding:84px 0}
+.eye{font:600 .78rem var(--hd);letter-spacing:.16em;text-transform:uppercase;color:var(--blue);margin-bottom:12px;display:block}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:var(--navy);border-bottom:1px solid #1c2e5c}
+.nav{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{font:700 1.15rem var(--hd);letter-spacing:.14em;text-decoration:none;color:#fff;display:flex;align-items:center;gap:10px}
+.logo i{width:26px;height:26px;border-radius:7px;background:linear-gradient(135deg,var(--blue),var(--cy));display:grid;place-items:center;font-style:normal;color:#07112b;font-size:.9rem}
+.logo b{color:var(--cy)}
+nav{display:flex;align-items:center;gap:6px}
+nav a{color:#c5d3f5;text-decoration:none;padding:8px 13px;border-radius:8px;font-size:.93rem;font-weight:500;transition:.2s}
+nav a:hover,nav a.on{color:#fff;background:#14275a}
+nav a.q{background:linear-gradient(135deg,var(--blue),#1ab6e6);color:#fff;margin-left:8px;box-shadow:0 6px 20px -6px var(--blue)}
+.burger{display:none;background:none;border:1px solid #2a417d;color:#fff;border-radius:8px;width:42px;height:42px;font-size:1.2rem;cursor:pointer}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 24px;border-radius:11px;font:600 .95rem Inter,sans-serif;text-decoration:none;border:1px solid transparent;cursor:pointer;transition:.25s}
+.btn.p{background:linear-gradient(135deg,var(--blue),#1ab6e6);color:#fff;box-shadow:0 10px 28px -10px var(--blue)}
+.btn.p:hover{transform:translateY(-2px);box-shadow:0 14px 32px -8px var(--blue)}
+.btn.g{border-color:#3a548f;color:#fff}.btn.g:hover{background:#ffffff14}
+.btn.o{border-color:var(--bd);color:var(--tx);background:transparent}.btn.o:hover{border-color:var(--blue);color:var(--blue)}
+.btn:focus-visible,a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--cy);outline-offset:2px}
+.hero{background:radial-gradient(900px 500px at 85% 0,#1b4fd855,transparent 60%),radial-gradient(600px 400px at 0 100%,#22d3ee22,transparent 60%),var(--navy);color:#fff;position:relative;overflow:hidden}
+.hero p{color:#b4c4ea}.hero .w{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding-top:80px;padding-bottom:80px}
+.hero h1 span{background:linear-gradient(90deg,#5aa0ff,var(--cy));-webkit-background-clip:text;background-clip:text;color:transparent}
+.grid-bg{position:absolute;inset:0;background-image:linear-gradient(#ffffff08 1px,transparent 1px),linear-gradient(90deg,#ffffff08 1px,transparent 1px);background-size:48px 48px;mask-image:linear-gradient(#000,transparent 85%);animation:drift 24s linear infinite}
+@keyframes drift{to{background-position:48px 48px}}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.ill{width:100%;height:auto;filter:drop-shadow(0 30px 50px #0008)}.ill .bar{transform-origin:bottom;animation:grow 3s ease-in-out infinite alternate}
+.ill .fl{animation:fl 5s ease-in-out infinite alternate}@keyframes fl{to{transform:translateY(-10px)}}@keyframes grow{to{transform:scaleY(.7)}}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.card{background:var(--surf);border:1px solid var(--bd);border-radius:18px;padding:26px;transition:.3s;position:relative}
+.card:hover{transform:translateY(-5px);border-color:var(--blue);box-shadow:0 22px 40px -22px #2f7bffaa}
+.ic{width:50px;height:50px;border-radius:14px;background:linear-gradient(135deg,#2f7bff26,#22d3ee26);display:grid;place-items:center;color:var(--blue);margin-bottom:16px}
+.ic svg{width:26px;height:26px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.tag{display:inline-block;font-size:.74rem;padding:3px 10px;border-radius:99px;background:#2f7bff1c;color:var(--blue);margin:0 6px 6px 0;font-weight:600}
+ul.ck{list-style:none;padding:0;margin:0 0 18px}ul.ck li{padding:3px 0 3px 24px;position:relative;color:var(--mut);font-size:.93rem}
+ul.ck li::before{content:"";position:absolute;left:2px;top:.8em;width:10px;height:6px;border-left:2px solid var(--cy);border-bottom:2px solid var(--cy);transform:rotate(-45deg) translateY(-50%)}
+.sv .more{display:none;font-size:.92rem}.sv.open .more{display:block}
+.row{display:flex;gap:10px;flex-wrap:wrap;margin-top:auto}.sv{display:flex;flex-direction:column}
+.band{background:linear-gradient(135deg,#0b2a78,#0a56c9 60%,#12a8d6);color:#fff;border-radius:26px;padding:56px 32px;text-align:center}
+.band p{color:#d6e5ff;max-width:560px;margin:0 auto 24px}
+.th{height:150px;border-radius:12px;margin-bottom:16px;display:grid;place-items:center;color:#ffffffcc;font:700 .8rem var(--hd);letter-spacing:.12em;position:relative;overflow:hidden}
+.th::after{content:"";position:absolute;inset:0;background-image:linear-gradient(#ffffff14 1px,transparent 1px),linear-gradient(90deg,#ffffff14 1px,transparent 1px);background-size:22px 22px}
+.flt{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:28px}.flt button{padding:8px 16px;border-radius:99px;border:1px solid var(--bd);background:var(--surf);color:var(--tx);cursor:pointer;font:500 .88rem Inter}
+.flt button.on{background:var(--blue);border-color:var(--blue);color:#fff}
+.ph{font-size:.75rem;color:var(--mut);font-style:italic}
+.tl{position:relative;margin:0;padding:0;list-style:none}.tl::before{content:"";position:absolute;left:23px;top:8px;bottom:8px;width:2px;background:linear-gradient(var(--blue),var(--cy))}
+.tl li{position:relative;padding:0 0 34px 76px}.tl .n{position:absolute;left:0;top:0;width:48px;height:48px;border-radius:50%;background:var(--navy);border:2px solid var(--cy);color:var(--cy);font:700 1rem var(--hd);display:grid;place-items:center}
+form{display:grid;grid-template-columns:1fr 1fr;gap:16px}form .f{grid-column:1/-1}
+label{display:block;font-size:.84rem;font-weight:600;margin-bottom:6px}
+input,select,textarea{width:100%;padding:12px 14px;border-radius:10px;border:1px solid var(--bd);background:var(--bg);color:var(--tx);font:inherit}
+.msg{grid-column:1/-1;padding:14px;border-radius:10px;background:#2f7bff1a;font-size:.9rem;color:var(--tx);display:none}
+.pg{padding:70px 0 40px;background:var(--navy);color:#fff}.pg p{color:#b4c4ea;max-width:620px}
+footer{background:var(--navy);color:#b4c4ea;padding:60px 0 28px;margin-top:40px}
+.fg{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.2fr;gap:36px}footer h4{color:#fff;font:600 .95rem var(--hd);margin:0 0 14px}
+footer a{display:block;text-decoration:none;padding:3px 0;font-size:.92rem}footer a:hover{color:var(--cy)}footer p{color:#9fb2dd;font-size:.92rem}
+.cp{border-top:1px solid #1c2e5c;margin-top:36px;padding-top:20px;font-size:.84rem}
+.soc a{display:inline-block;border:1px solid #2a417d;border-radius:8px;padding:5px 11px;margin:0 6px 6px 0}
+.rv{opacity:0;transform:translateY(22px);transition:.7s}.rv.in{opacity:1;transform:none}
+.nf{text-align:center;padding:120px 0}.nf h1{font-size:7rem;background:linear-gradient(90deg,var(--blue),var(--cy));-webkit-background-clip:text;background-clip:text;color:transparent}
+@media(max-width:860px){.hero .w,.two,.fg{grid-template-columns:1fr}.burger{display:block}
+nav{position:absolute;left:0;right:0;top:68px;background:var(--navy);flex-direction:column;align-items:stretch;padding:12px 22px 20px;display:none;border-bottom:1px solid #1c2e5c}nav.open{display:flex}nav a.q{margin:6px 0 0;text-align:center}.sec{padding:60px 0}form{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<header><div class="w nav"><a class="logo" href="#home" aria-label="AZENIC DIGITAL home"><i>A</i>AZENIC <b>DIGITAL</b></a>
+<button class="burger" id="bg" aria-label="Toggle menu" aria-expanded="false">☰</button>
+<nav id="nv" aria-label="Main"><a href="#home" data-p="home">Home</a><a href="#about" data-p="about">About</a><a href="#services" data-p="services">Services</a><a href="#portfolio" data-p="portfolio">Portfolio</a><a href="#process" data-p="process">Process</a><a href="#contact" data-p="contact">Contact</a><a class="q" href="#contact">Get a Quote</a></nav></div></header>
+<main id="app"></main>
+<footer><div class="w"><div class="fg">
+<div><a class="logo" href="#home" style="padding:0 0 12px"><i>A</i>AZENIC <b>DIGITAL</b></a><p>Digital solutions and creative services agency based in Kandy, Sri Lanka, serving local and international clients.</p></div>
+<div><h4>Quick Links</h4><a href="#home">Home</a><a href="#about">About</a><a href="#portfolio">Portfolio</a><a href="#process">Our Process</a><a href="#contact">Contact</a></div>
+<div><h4>Services</h4><a href="#services">Data Analytics &amp; BI</a><a href="#services">UI/UX Design</a><a href="#services">Graphic Design &amp; Branding</a><a href="#services">Web Development</a></div>
+<div><h4>Contact</h4><div id="fc"></div><p>Kandy, Sri Lanka</p><div class="soc" id="fs"></div></div></div>
+<div class="cp">© <span id="yr"></span> AZENIC DIGITAL. All rights reserved.</div></div></footer>
+<script>
+/* ===== EDIT YOUR BUSINESS DETAILS HERE ===== */
+const CONFIG={
+  email:"",            // e.g. "hello@yourdomain.com"
+  whatsapp:"",         // digits only with country code, e.g. "94XXXXXXXXX"
+  social:{LinkedIn:"",Facebook:"",Instagram:"",Behance:"",GitHub:""}  // full URLs; empty ones are hidden
+};
+const SERVICES=[
+{id:"data",ic:"M4 20V10M10 20V4M16 20v-8M22 20H2",t:"Data Analytics & Business Intelligence",d:"Turn raw data into clear decisions with dashboards, reports and insights tailored to your business.",more:"We clean and structure your data, then build interactive dashboards and reports so your team can track performance and spot opportunities.",i:["Data cleaning and preprocessing","Excel data analysis","Power BI dashboards","Business performance dashboards","Data visualization","Business insights and reporting","Sales and customer analytics"]},
+{id:"ux",ic:"M3 4h18v12H3zM8 20h8M12 16v4",t:"UI/UX Design",d:"User-centred interfaces that look refined and are easy to use across web and mobile.",more:"From research to high-fidelity prototypes in Figma, we design experiences that reduce friction and make products feel effortless.",i:["Website UI design","Mobile application UI design","Wireframing","Prototyping","User journey mapping","UX research","Figma design"]},
+{id:"gfx",ic:"M12 20h9M16.5 3.5l4 4L8 20l-5 1 1-5z",t:"Graphic Design & Branding",d:"Distinctive visual identities and marketing materials that make your brand memorable.",more:"We craft consistent brand assets for print and digital so your business looks professional everywhere it appears.",i:["Logo design","Social media posts","Business posters","Flyers and brochures","Business cards","Brand identity design","Marketing materials"]},
+{id:"web",ic:"M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16",t:"Web Development",d:"Fast, responsive and search-friendly websites that present your business professionally.",more:"We build clean, maintainable websites that work on every device and are ready to grow with your business.",i:["Business websites","Portfolio websites","Landing pages","Responsive website development","Website redesign","Basic business website solutions"]}];
+const PROJECTS=[
+["Sales Performance Dashboard","Data Analytics","Sample placeholder: interactive dashboard summarising sales by region and product.",["Power BI","Excel"],"#0b3d91,#22d3ee"],
+["Customer Insights Report","Data Analytics","Sample placeholder: customer segmentation and retention analysis.",["Excel","Data Cleaning"],"#12306b,#2f7bff"],
+["Mobile App Interface","UI/UX Design","Sample placeholder: mobile UI concept with wireframes and prototype.",["Figma","Prototyping"],"#3b2a9c,#2f7bff"],
+["Web Platform Redesign","UI/UX Design","Sample placeholder: UX research and redesign of a business website.",["Figma","UX Research"],"#1d4ed8,#7dd3fc"],
+["Brand Identity Package","Graphic Design","Sample placeholder: logo, colour system and stationery set.",["Illustrator","Photoshop"],"#0f3b66,#38bdf8"],
+["Social Media Campaign Kit","Graphic Design","Sample placeholder: post templates and promotional posters.",["Photoshop","Canva"],"#173a8c,#22d3ee"],
+["Business Website","Web Development","Sample placeholder: responsive multi-page company website.",["HTML","CSS","JavaScript"],"#0a2a6b,#3b82f6"],
+["Product Landing Page","Web Development","Sample placeholder: high-converting single page for a product launch.",["React","Tailwind CSS"],"#142a78,#06b6d4"]];
+const STEPS=[["Initial Consultation","We listen to your goals, audience and challenges to understand what success looks like."],["Requirement Analysis","We define scope, deliverables, timeline and budget so everyone is aligned."],["Planning and Design","We plan the solution and create designs, wireframes or data models for your approval."],["Development and Implementation","We build, test and refine the solution, keeping you informed with regular updates."],["Delivery and Support","We hand over the finished work and provide guidance and support after launch."]];
+const WHY=[["Creative & Analytical","We combine design thinking with data-driven insight."],["Clear Communication","Straightforward updates and quick responses throughout."],["Quality First","Careful attention to detail in every deliverable."],["Global Ready","Remote-first delivery for local and international clients."]];
+const ic=p=>`<div class="ic"><svg viewBox="0 0 24 24"><path d="${p}"/></svg></div>`;
+const ILL=`<svg class="ill" viewBox="0 0 480 400" role="img" aria-label="Illustration of analytics dashboard and code window"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2f7bff"/><stop offset="1" stop-color="#22d3ee"/></linearGradient></defs>
+<rect x="40" y="40" width="360" height="250" rx="18" fill="#0d1b3d" stroke="#2a417d"/><rect x="40" y="40" width="360" height="34" rx="18" fill="#12254f"/><circle cx="62" cy="57" r="5" fill="#ff6b6b"/><circle cx="80" cy="57" r="5" fill="#ffd166"/><circle cx="98" cy="57" r="5" fill="#4ade80"/>
+<g fill="url(#g)"><rect class="bar" x="70" y="170" width="36" height="90" rx="6"/><rect class="bar" x="120" y="130" width="36" height="130" rx="6" style="animation-delay:.4s"/><rect class="bar" x="170" y="150" width="36" height="110" rx="6" style="animation-delay:.8s"/><rect class="bar" x="220" y="100" width="36" height="160" rx="6" style="animation-delay:1.2s"/></g>
+<path d="M290 230 L320 190 L350 205 L385 130" fill="none" stroke="#22d3ee" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><line x1="64" y1="262" x2="380" y2="262" stroke="#2a417d"/>
+<g class="fl"><rect x="270" y="250" width="180" height="110" rx="16" fill="#ffffff12" stroke="#ffffff33"/><text x="292" y="288" fill="#22d3ee" font-family="monospace" font-size="15">&lt;/&gt; build()</text><rect x="292" y="304" width="110" height="8" rx="4" fill="#ffffff33"/><rect x="292" y="324" width="78" height="8" rx="4" fill="#ffffff22"/></g>
+<g class="fl" style="animation-delay:1.5s"><circle cx="90" cy="335" r="38" fill="url(#g)" opacity=".9"/><path d="M74 335l12 12 22-26" fill="none" stroke="#07112b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g></svg>`;
+const ph=(x,t)=>`<div class="card rv"><h3>${t}</h3><p>${x}</p></div>`;
+const hd=(e,t,p)=>`<span class="eye">${e}</span><h2>${t}</h2>${p?`<p style="max-width:640px">${p}</p>`:""}`;
+const svCard=s=>`<article class="card sv rv" id="s-${s.id}">${ic(s.ic)}<h3>${s.t}</h3><p>${s.d}</p><p class="more">${s.more}</p><ul class="ck">${s.i.map(x=>`<li>${x}</li>`).join("")}</ul><div class="row"><button class="btn o" data-more>Learn More</button><a class="btn p" href="#contact" data-q="${s.t}">Request a Quote</a></div></article>`;
+const pjCard=p=>`<article class="card rv" data-c="${p[1]}"><div class="th" style="background:linear-gradient(135deg,${p[4].split(",")[0]},${p[4].split(",")[1]})"><span style="position:relative;z-index:1">${p[1].toUpperCase()}</span></div><span class="tag">${p[1]}</span><h3>${p[0]}</h3><p>${p[2]}</p><div>${p[3].map(t=>`<span class="tag" style="background:var(--bd);color:var(--tx)">${t}</span>`).join("")}</div><p class="ph">Placeholder – replace with a real project.</p><a class="btn o" href="#contact">View Project</a></article>`;
+const stepsHtml=()=>`<ol class="tl">${STEPS.map((s,i)=>`<li class="rv"><span class="n">${i+1}</span><h3>${s[0]}</h3><p>${s[1]}</p></li>`).join("")}</ol>`;
+const cta=()=>`<section class="sec"><div class="w"><div class="band rv"><h2>Ready to Start Your Project?</h2><p>Tell us about your idea and we will get back to you with a clear plan and quote.</p><div class="btns" style="justify-content:center"><a class="btn p" style="background:#fff;color:#0a2a6b;box-shadow:none" href="#contact">Get a Free Consultation</a>${CONFIG.whatsapp?`<a class="btn g" href="https://wa.me/${CONFIG.whatsapp}" target="_blank" rel="noopener">WhatsApp Us</a>`:""}</div></div></div></section>`;
+const pghead=(e,t,p)=>`<section class="pg"><div class="w"><span class="eye" style="color:var(--cy)">${e}</span><h1 style="font-size:clamp(2rem,4.5vw,3.2rem)">${t}</h1><p>${p}</p></div></section>`;
+const PAGES={
+home:()=>`<section class="hero"><div class="grid-bg"></div><div class="w" style="position:relative"><div><span class="eye" style="color:var(--cy)">AZENIC DIGITAL · Kandy, Sri Lanka</span><h1>Building <span>Digital Experiences</span> That Move Businesses Forward.</h1><p style="font-size:1.1rem">Azenic Digital delivers creative, analytical and technology-driven solutions to help businesses grow in the digital world.</p><div class="btns"><a class="btn p" href="#services">Explore Our Services</a><a class="btn g" href="#contact">Let’s Work Together</a></div></div>${ILL}</div></section>
+<section class="sec"><div class="w two"><div class="rv">${hd("Who we are","Transforming Ideas Into Digital Excellence.")}<p>Azenic Digital is an online-based digital solutions and creative services agency in Kandy, Sri Lanka. We work with local and international clients, combining data, design and development under one roof.</p><a class="btn o" href="#about">More About Us</a></div><div class="cards">${WHY.slice(0,2).map(w=>ph(w[1],w[0])).join("")}</div></div></section>
+<section class="sec" style="padding-top:0"><div class="w">${hd("Services","What We Do","Four focused service areas to take your business from idea to impact.")}<div class="cards">${SERVICES.map(s=>`<article class="card rv">${ic(s.ic)}<h3>${s.t}</h3><p>${s.d}</p><a class="btn o" href="#services">Learn More</a></article>`).join("")}</div></div></section>
+<section class="sec" style="padding-top:0"><div class="w">${hd("Why choose us","Why Choose Azenic Digital?")}<div class="cards">${WHY.map(w=>ph(w[1],w[0])).join("")}</div></div></section>
+<section class="sec" style="padding-top:0"><div class="w">${hd("Featured projects","Selected Work","Sample placeholders shown until real projects are added.")}<div class="cards">${PROJECTS.filter((_,i)=>i%2==0).map(pjCard).join("")}</div><p style="margin-top:22px"><a class="btn o" href="#portfolio">View Full Portfolio</a></p></div></section>
+<section class="sec" style="padding-top:0"><div class="w">${hd("How we work","Our Working Process")}${stepsHtml()}</div></section>
+<section class="sec" style="padding-top:0"><div class="w">${hd("Testimonials","Client Feedback")}<div class="cards">${[1,2,3].map(()=>`<div class="card rv"><p class="ph">Client testimonial placeholder. Add a real quote, name and company here once available.</p><p style="margin:0"><b style="color:var(--tx)">Client Name</b><br><span class="ph">Company / Role</span></p></div>`).join("")}</div></div></section>${cta()}`,
+about:()=>`${pghead("About Us","Creative, Analytical and Technology-Driven","Azenic Digital helps businesses grow with thoughtful design, reliable development and clear data insight.")}
+<section class="sec"><div class="w two"><div class="rv">${hd("Who we are","About Azenic Digital")}<p>Azenic Digital is a digital solutions and creative services agency based in Kandy, Sri Lanka. We operate online, serving local and international clients across data analytics, UI/UX design, graphic design and web development.</p></div><div class="cards"><div class="card rv"><h3>Our Mission</h3><p>To deliver creative, high-quality digital solutions that help businesses grow with confidence.</p></div><div class="card rv"><h3>Our Vision</h3><p>To be a trusted digital partner known for innovation, quality and genuine customer care.</p></div></div></div></section>
+<section class="sec" style="padding-top:0"><div class="w">${hd("Our values","What Guides Us")}<div class="cards">${[["Creativity","Fresh ideas tailored to each brand."],["Innovation","Modern tools and methods applied with purpose."],["Quality","Careful craft in every detail."],["Communication","Open, timely and honest updates."],["Customer Satisfaction","Your goals define our success."]].map(v=>ph(v[1],v[0])).join("")}</div></div></section>
+<section class="sec" style="padding-top:0"><div class="w two"><div class="rv">${hd("Our approach","Understand. Design. Deliver.")}<p>We start by understanding your business and audience, then plan, design and build solutions step by step, keeping you involved at each stage.</p><a class="btn o" href="#process">See Our Process</a></div><div class="rv">${hd("Why work with us","Why Businesses Choose Us")}<ul class="ck">${WHY.map(w=>`<li><b style="color:var(--tx)">${w[0]}:</b> ${w[1]}</li>`).join("")}</ul></div></div></section>${cta()}`,
+services:()=>`${pghead("Services","Solutions Built Around Your Business","Choose a service below or combine them for a complete digital solution.")}<section class="sec"><div class="w"><div class="cards" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr))">${SERVICES.map(svCard).join("")}</div></div></section>${cta()}`,
+portfolio:()=>`${pghead("Portfolio","Our Work","Sample placeholders are shown until real projects are uploaded. Edit the PROJECTS list to update.")}<section class="sec"><div class="w"><div class="flt" role="group" aria-label="Filter projects">${["All","Data Analytics","UI/UX Design","Graphic Design","Web Development"].map((c,i)=>`<button data-f="${c}" class="${i?"":"on"}">${c}</button>`).join("")}</div><div class="cards" id="pj">${PROJECTS.map(pjCard).join("")}</div></div></section>${cta()}`,
+process:()=>`${pghead("Our Process","A Clear Five-Step Workflow","Transparent from first conversation to final delivery.")}<section class="sec"><div class="w" style="max-width:760px">${stepsHtml()}</div></section>${cta()}`,
+contact:()=>`${pghead("Contact Us","Let’s Discuss Your Project","Share a few details and we will respond with next steps.")}<section class="sec"><div class="w two" style="align-items:start"><form id="cf" novalidate><div><label for="n">Full name *</label><input id="n" required autocomplete="name"></div><div><label for="e">Email address *</label><input id="e" type="email" required autocomplete="email"></div><div><label for="p">Phone number</label><input id="p" type="tel" autocomplete="tel"></div><div><label for="c">Company name (optional)</label><input id="c" autocomplete="organization"></div><div><label for="s">Service required *</label><select id="s" required><option value="">Select a service</option>${SERVICES.map(s=>`<option>${s.t}</option>`).join("")}<option>Other / Not sure yet</option></select></div><div><label for="b">Project budget</label><select id="b"><option value="">Select a range</option><option>To be discussed</option><option>Under $250</option><option>$250 – $1,000</option><option>$1,000 – $5,000</option><option>$5,000+</option></select></div><div class="f"><label for="d">Project description *</label><textarea id="d" rows="5" required></textarea></div><div class="f" style="display:flex;gap:10px;flex-wrap:wrap"><button class="btn p" type="submit" data-m="mail">Send by Email</button><button class="btn o" type="submit" data-m="wa">Send via WhatsApp</button></div><div class="msg" id="mg" role="status"></div></form>
+<div><div class="card"><h3>Get in touch</h3><div id="ci"></div><p><b style="color:var(--tx)">Location:</b> Kandy, Sri Lanka</p><p style="margin:0">Online-based, serving local and international clients.</p></div></div></div></section>`
+};
+const app=document.getElementById("app");let pick="";
+function setup(page){
+ app.querySelectorAll("[data-more]").forEach(b=>b.onclick=()=>{const c=b.closest(".sv");c.classList.toggle("open");b.textContent=c.classList.contains("open")?"Show Less":"Learn More"});
+ app.querySelectorAll("[data-q]").forEach(a=>a.addEventListener("click",()=>pick=a.dataset.q));
+ app.querySelectorAll("[data-f]").forEach(b=>b.onclick=()=>{app.querySelectorAll("[data-f]").forEach(x=>x.classList.toggle("on",x==b));app.querySelectorAll("#pj>[data-c]").forEach(c=>c.style.display=b.dataset.f=="All"||c.dataset.c==b.dataset.f?"":"none")});
+ if(page=="contact"){
+  const s=document.getElementById("s");if(pick)s.value=pick;
+  const ci=document.getElementById("ci"),L=[];
+  if(CONFIG.email)L.push(`<p><b style="color:var(--tx)">Email:</b> <a href="mailto:${CONFIG.email}">${CONFIG.email}</a></p>`);
+  if(CONFIG.whatsapp)L.push(`<p><b style="color:var(--tx)">WhatsApp:</b> <a href="https://wa.me/${CONFIG.whatsapp}" target="_blank" rel="noopener">Chat on WhatsApp</a></p>`);
+  Object.entries(CONFIG.social).filter(e=>e[1]).forEach(e=>L.push(`<a class="btn o" style="margin:0 8px 8px 0;padding:8px 14px" href="${e[1]}" target="_blank" rel="noopener">${e[0]}</a>`));
+  ci.innerHTML=L.join("")||`<p class="ph">Contact details will appear here once added in CONFIG.</p>`;
+  let mode="mail";document.querySelectorAll("#cf [type=submit]").forEach(b=>b.onclick=()=>mode=b.dataset.m);
+  document.getElementById("cf").onsubmit=ev=>{ev.preventDefault();const g=i=>document.getElementById(i).value.trim(),m=document.getElementById("mg");m.style.display="block";
+   if(!g("n")||!/^\S+@\S+\.\S+$/.test(g("e"))||!g("s")||!g("d")){m.textContent="Please complete name, a valid email, service and project description.";return}
+   const body=`Name: ${g("n")}\nEmail: ${g("e")}\nPhone: ${g("p")||"-"}\nCompany: ${g("c")||"-"}\nService: ${g("s")}\nBudget: ${g("b")||"-"}\n\nProject:\n${g("d")}`;
+   if(mode=="wa"&&CONFIG.whatsapp){open(`https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent("New inquiry – AZENIC DIGITAL\n\n"+body)}`,"_blank","noopener");m.textContent="Opening WhatsApp with your inquiry…"}
+   else if(mode=="mail"&&CONFIG.email){location.href=`mailto:${CONFIG.email}?subject=${encodeURIComponent("Project inquiry – "+g("s"))}&body=${encodeURIComponent(body)}`;m.textContent="Opening your email app with your inquiry…"}
+   else m.textContent="This contact channel isn’t set up yet. The site owner needs to add their "+(mode=="wa"?"WhatsApp number":"email address")+" in the CONFIG block."}}
+ const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.1});
+ app.querySelectorAll(".rv").forEach(el=>io.observe(el));
+}
+function route(){
+ const h=(location.hash||"#home").slice(1),ok=h in PAGES,nv=document.getElementById("nv");
+ app.innerHTML=ok?PAGES[h]():`<section class="nf"><div class="w"><h1>404</h1><h2>Page not found</h2><p>The page you’re looking for doesn’t exist or has moved.</p><a class="btn p" href="#home">Back to Home</a></div></section>`;
+ document.title=ok?(h=="home"?"":h[0].toUpperCase()+h.slice(1)+" – ")+"AZENIC DIGITAL":"Page not found – AZENIC DIGITAL";
+ nv.querySelectorAll("a[data-p]").forEach(a=>a.classList.toggle("on",a.dataset.p==h));nv.classList.remove("open");
+ document.getElementById("bg").setAttribute("aria-expanded","false");scrollTo(0,0);setup(h);
+}
+document.getElementById("bg").onclick=e=>{const o=document.getElementById("nv").classList.toggle("open");e.currentTarget.setAttribute("aria-expanded",o)};
+document.getElementById("yr").textContent=new Date().getFullYear();
+document.getElementById("fc").innerHTML=(CONFIG.email?`<a href="mailto:${CONFIG.email}">${CONFIG.email}</a>`:"")+(CONFIG.whatsapp?`<a href="https://wa.me/${CONFIG.whatsapp}" target="_blank" rel="noopener">WhatsApp</a>`:"");
+document.getElementById("fs").innerHTML=Object.entries(CONFIG.social).filter(e=>e[1]).map(e=>`<a href="${e[1]}" target="_blank" rel="noopener" aria-label="${e[0]}">${e[0]}</a>`).join("");
+addEventListener("hashchange",route);route();
+</script>
+</body>
+</html>
